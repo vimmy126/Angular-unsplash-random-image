@@ -1,0 +1,22 @@
+<div class="container my-4  border">
+    <div class="row bg-light border-bottom py-3">
+      <div class="col-sm-12 d-flex align-items-center justify-content-between">
+        <h5 class="text-center mb-0">Random Photo Getter <small class="text-muted">Using unsplash api</small></h5>
+        <button class="btn btn-sm btn-dark" (click)="getRandomPhoto()">Get New Photo</button>
+      </div>
+    </div>
+    <div class="row bg-light border-bottom py-3">
+      <div class="col-sm-12">
+        <div class="card shadow">
+          <div class="card-body">
+              <img [src]="randomPhotoImg" class="img-fluid w-100"  />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row bg-light border-top py-3">
+      <div class="col-sm-12">
+        <p class="text-center mb-0">&copy;2021 Vimal Thapliyal</p>
+      </div>
+    </div>
+  </div>

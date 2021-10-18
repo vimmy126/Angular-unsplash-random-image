@@ -25,3 +25,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+# How to use 
+Register your self in unspalsh API as Dev account Open photo.service.ts file replace XXXX with your API key and you  are good to go. If you need any help feel free to contact me at vimalthapliyal.com@gmail.com
